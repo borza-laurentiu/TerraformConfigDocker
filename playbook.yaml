@@ -1,5 +1,5 @@
 - hosts: mydocker
-  become: yes  
+  become: yes
   vars:
     docker_compose_version: "1.27.4"
   tasks:
